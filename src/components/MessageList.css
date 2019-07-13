@@ -1,0 +1,84 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.message-details {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+#message-content li {
+  display: block;
+  background-color: rgba(255, 153, 204, 0.9);
+  margin: 7px 0;
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: lemonchiffon;
+  list-style: none;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+#message-content li.message-me {
+  margin-right: auto;
+}
+
+#message-content li.message-other {
+  margin-left: auto;
+}
+
+#create-message {
+  width: 100%;
+}
+
+#create-message div {
+  display: flex;
+}
+
+.message-input {
+  flex: 1;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#create-message button {
+  border-radius: 20px;
+  border: none;
+  width: 10%;
+  font-size: 25px;
+  background-color: rgba(38, 217, 181);
+  color: lemonchiffon;
+}
+
+#create-message button:hover {
+  background-color: #ed1c88;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  #create-message button {
+    font-size: 20px;
+  }
+}
+
+.sentAt {
+  display: inline;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #ed1c88;
+  min-width: 4em;
+}
+
+.username {
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #ed1c88;
+}

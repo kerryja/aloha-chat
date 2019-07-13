@@ -1,0 +1,91 @@
+.room-container {
+  text-align: center;
+}
+
+.rooms {
+  color: lemonchiffon;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.rooms li {
+  padding: 5px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 760px) {
+  .rooms li {
+    font-size: 20px;
+  }
+}
+
+.rooms a {
+  color: hotpink;
+  text-decoration: none;
+  color: lemonchiffon;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ed1c88;
+}
+
+.active-room a {
+  color: #ed1c88;
+}
+
+.other-room {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: lemonchiffon;
+}
+
+#create-room {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.room-input {
+  flex: 1;
+  border-radius: 20px;
+  height: 30px;
+  width: 150px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#create-room button {
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 7px;
+  background-color: rgb(38, 217, 181);
+  color: lemonchiffon;
+}
+
+#create-room button:hover {
+  background-color: #ed1c88;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.emojis {
+  font-size: 30px;
+  margin-top: 65px;
+}
+
+@media screen and (max-width: 760px) {
+  .emojis {
+    margin-top: 40px;
+  }
+}
+
+.emojis span {
+  padding: 5px;
+}

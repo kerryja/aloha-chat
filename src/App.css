@@ -1,0 +1,87 @@
+html {
+  background: url(palm-trees2.jpg) no-repeat center center fixed;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+#heading {
+  font-size: 50px;
+  color: lemonchiffon;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1338px) {
+  #heading {
+    font-size: 40px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media screen and (max-width: 760px) {
+  .double-column {
+    padding-left: 0;
+    padding-right: 0;
+    flex: 1;
+  }
+}
+
+.main-column-1 {
+  background-color: rgba(143, 199, 212, 0.9);
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .main-column-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.main-column-2 {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .main-column-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
